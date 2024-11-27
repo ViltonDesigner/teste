@@ -1,0 +1,104 @@
+body {
+    background-color: #000; /* Fundo preto para o tema */
+    color: #fff; /* Texto branco */
+}
+.highlight {
+    background-color: #00ff00; /* Verde chamativo */
+    padding: 20px;
+}
+
+/* Footer principal */
+  .footer {
+    height: 128px; /* Altura padrão do footer */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    background: url('img/background-footer-1440.jpg') no-repeat center center !important; /* Imagem de fundo */
+/*    background-size: cover; /* Ajuste da imagem para cobrir o espaço */
+  }
+
+  /* Conteúdo do footer */
+  .footer-content {
+    position: relative;
+    text-align: center; /* Alinha o texto e imagens ao centro em telas menores */
+  }
+
+  /* Estilo dos logos */
+  .footer-logo {
+    max-height: 42px;
+    max-width: 100%; /* Permite redimensionamento proporcional */
+    object-fit: contain;
+  }
+
+  .margin-nobreak-back-features {
+    margin-top: -80px;
+    margin-bottom: 80px;
+  }
+
+  .bg-img-hero-height{
+    height: 307px;
+  }
+
+  .margin-left-mobile-power {
+    margin-left: 15%;
+  }
+
+  .height-bg-img-power {
+    height: 512px;
+  }
+
+
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .footer {
+      height: 192px; /* Altura 768 */
+    }
+
+    .footer-content {
+      flex-direction: column; /* Empilha os logotipos em telas pequenas */
+    }
+
+    .footer-logo {
+      max-height: 32px; /* Reduz o tamanho dos logotipos */
+    }
+
+    .margin-mobile-features {
+      margin-top: 80px;
+    }
+
+    .margin-nobreak-back-features {
+      margin-top: 80px;
+      margin-bottom: -80px;
+    }
+
+    .text-center-only-mobile {
+      text-align: center;
+    }
+
+    .bg-img-hero-height{
+      height: 512px;
+    }
+
+    .margin-top-mobile {
+      margin-top: -25%;
+    }
+
+    .margin-left-mobile-power {
+      margin-left: 0%;
+    }
+
+    .height-bg-img-power {
+      height: 768px;
+    }
+
+  }
+
+  @media (min-width: 769px) and (max-width: 1000px) {
+    .height-bg-img-power {
+      height: 400px;
+    }
+  }
+
+  body {
+  	font-family: 'Nunito', sans-serif;
+	}
